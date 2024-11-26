@@ -5,12 +5,30 @@
         <img src="~/assets/img/kotheme/logo.svg" alt="Kosante | La mejor herramienta para amantes de la nutrición." class="h-12" />
       </NuxtLink>
       <nav class="md:grow md:flex justify-end">
-        <NuxtLink to="/" class="p-2">Blog de nutrición</NuxtLink>
-        <NuxtLink to="/" class="p-2">Alimentos DB</NuxtLink>
-        <NuxtLink to="/" class="p-2">Herramientas</NuxtLink>
-        <NuxtLink to="/" class="p-2">Foro</NuxtLink>
-        <NuxtLink to="/" class="p-2">Consulta Nutricional</NuxtLink>
-        <NuxtLink to="/" class="p-2">Mi cuenta</NuxtLink>
+        <NuxtLink to="/" class="p-2">
+          <i class="mdi mdi-newspaper-variant-multiple"></i>
+          Blog de nutrición
+        </NuxtLink>
+        <NuxtLink to="/" class="p-2">
+          <i class="mdi mdi-food-apple-outline"></i>
+          Alimentos DB
+        </NuxtLink>
+        <NuxtLink to="/" class="p-2">
+          <i class="mdi mdi-tools"></i>
+          Herramientas
+        </NuxtLink>
+        <NuxtLink to="/" class="p-2">
+          <i class="mdi mdi-forum-outline"></i>
+          Foro
+        </NuxtLink>
+        <NuxtLink to="/" class="p-2">
+          <i class="mdi mdi-medication-outline"></i>
+          Consulta Nutricional
+        </NuxtLink>
+        <NuxtLink to="/" class="p-2">
+          <i class="mdi mdi-account-outline"></i>
+          Mi cuenta
+        </NuxtLink>
       </nav>
     </div>
   </header>

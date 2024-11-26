@@ -10,7 +10,7 @@
           Genere y consulte fácilmente planes de adecuación nutricional, obtención de gasto energético, aporte nutricional de los alimentos y mucho más.
         </p>
       </div>
-      <div class="w-1/2">
+      <div class="w-1/2 py-4">
         <img src="~/assets/img/kotheme/home.svg" class="w-full" alt="Expertos en nutrición.">
       </div>
     </div>
