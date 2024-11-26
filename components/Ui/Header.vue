@@ -6,11 +6,11 @@
       </NuxtLink>
       <nav class="md:grow md:flex justify-end">
         <NuxtLink to="/" class="p-2">Blog de nutrición</NuxtLink>
-        <NuxtLink to="/about" class="p-2">Alimentos DB</NuxtLink>
-        <NuxtLink to="/about" class="p-2">Herramientas</NuxtLink>
-        <NuxtLink to="/about" class="p-2">Foro</NuxtLink>
-        <NuxtLink to="/contact" class="p-2">Consulta Nutricional</NuxtLink>
-        <NuxtLink to="/contact" class="p-2">Mi cuenta</NuxtLink>
+        <NuxtLink to="/" class="p-2">Alimentos DB</NuxtLink>
+        <NuxtLink to="/" class="p-2">Herramientas</NuxtLink>
+        <NuxtLink to="/" class="p-2">Foro</NuxtLink>
+        <NuxtLink to="/" class="p-2">Consulta Nutricional</NuxtLink>
+        <NuxtLink to="/" class="p-2">Mi cuenta</NuxtLink>
       </nav>
     </div>
   </header>
