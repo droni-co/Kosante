@@ -1,5 +1,8 @@
 <template>
   <NuxtRouteAnnouncer />
   <UiHeader />
-  <slot />
+  <main class="bg-[url('~/assets/img/kotheme/cubes.png')]">
+    <slot />
+  </main>
+  <UiFooter />
 </template>
