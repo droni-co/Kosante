@@ -15,4 +15,17 @@
       </div>
     </div>
   </div>
+  <section class="container mx-auto py-8">
+    <h1>
+      Novedades en nutrición
+    </h1>
+    <div class="md:grid grid-cols-3 gap-4">
+      <BlogCard />
+      <BlogCard />
+      <BlogCard />
+      <BlogCard />
+      <BlogCard />
+      <BlogCard />
+    </div>
+  </section>
 </template>
