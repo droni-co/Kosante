@@ -20,12 +20,10 @@
       Novedades en nutrición
     </h1>
     <div class="md:grid grid-cols-3 gap-4">
-      <BlogCard />
-      <BlogCard />
-      <BlogCard />
-      <BlogCard />
-      <BlogCard />
-      <BlogCard />
+      <BlogCard v-for="post in lastPosts?.data" :key="post.id" :post="post" />
     </div>
   </section>
 </template>
+<script setup lang="ts">
+const lastPosts = await $fetch<Pagination<Post[]>>(`/api/appi/posts?itemsPerPage=6`)
+</script>
